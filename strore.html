@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEADJACK</title>
+    <!-- Bootstrap CSS for styling and layout -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Background gradient of neon red and neon blue */
+        body {
+            background: linear-gradient(to right, #ff073a, #0f0fff);
+            color: white;
+        }
+
+        /* Style for responsive product images */
+        .product-img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s, opacity 0.3s; /* Smooth transition for transform and opacity changes */
+        }
+
+        /* Scale image on hover */
+        .product-img:hover {
+            transform: scale(1.05); /* Slightly zoom in on hover */
+            opacity: 0.9; /* Change opacity on hover */
+        }
+
+        /* Card and form background color to contrast with neon background */
+        .card, .form-inline {
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <!-- Main container for products using Bootstrap classes -->
+    <div class="container my-4">
+        <h1 class="text-center">HEADJACK</h1>
+        <div class="row">
+            <!-- Product 1 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://plus.unsplash.com/premium_photo-1678099940967-73fe30680949?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top product-img" alt="Headphones 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Headphones 1</h5>
+                        <p class="card-text">$99.99</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top product-img" alt="Headphones 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Headphones 2</h5>
+                        <p class="card-text">$89.99</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1606400082777-ef05f3c5cde2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGVhZHBob25lc3xlbnwwfHwwfHx8MA%3D%3D" class="card-img-top product-img" alt="Headphones 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Headphones 3</h5>
+                        <p class="card-text">$79.99</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 4 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1577174881658-0f30ed549adc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D" class="card-img-top product-img" alt="Headphones 4">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Headphones 4</h5>
+                        <p class="card-text">$69.99</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 5 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1628202926206-c63a34b1618f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGhlYWRwaG9uZXN8ZW58MHx8MHx8fDA%3D" class="card-img-top product-img" alt="Headphones 5">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Headphones 5</h5>
+                        <p class="card-text">$59.99</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 6 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1630469696305-4a2a2eb78c24?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGVhcnBvZHN8ZW58MHx8MHx8fDA%3D" class="card-img-top product-img" alt="Headphones 6">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Headphones 6</h5>
+                        <p class="card-text">$49.99</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 7 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1429970992/photo/yellow-headphones-or-earphone-wireless-computer-isolated-on-a-blank-background.jpg?s=1024x1024&w=is&k=20&c=Mep1bQiZ6Q8RIgZ6u9X7BYmuBw4BU7cphFKm55NF9t4=" class="card-img-top product-img" alt="Headphones 7">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Headphones 7</h5>
+                        <p class="card-text">$39.99</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 8 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1412240771/photo/headphones-on-white-background.webp?b=1&s=170667a&w=0&k=20&c=imri8MO-ooYWA9YwUtP0xM_XpV8s3TMOjYEvdEJJ6to=" class="card-img-top product-img" alt="Headphones 8">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Headphones 8</h5>
+                        <p class="card-text">$29.99</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 9 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/1646426505/photo/in-ear-headphones-black-wireless-earphones-in-ear-with-charging-case-wireless-earbuds-or.webp?b=1&s=170667a&w=0&k=20&c=gxQ3jOTjo0xt5UVCYzf5TXbWUfeuyFUO3idckKqg7oY=" class="card-img-top product-img" alt="Headphones 9">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Headphones 9</h5>
+                        <p class="card-text">$19.99</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Product 10 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/182460766/photo/yellow-headphones.jpg?s=612x612&w=0&k=20&c=ZhRUR56zsbslXw3JI29E0S8gtd_QxOeDhiUlnbX-46k=" class="card-img-top product-img" alt="Headphones 10">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Headphones 10</h5>
+                        <p class="card-text">$9.99</p>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer section with contact form -->
+    <footer class="bg-dark text-white mt-4 p-4">
+        <div class="container">
+            <div class="row">
+                <!-- Contact form -->
+                <div class="col-md-8">
+                    <form class="form-inline">
+                        <div class="form-group mb-2">
+                            <label for="email" class="sr-only">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-group mx-sm-3 mb-2">
+                            <label for="phone" class="sr-only">Phone</label>
+                            <input type="text" class="form-control" id="phone" placeholder="Phone">
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                    </form>
+                </div>
+                <!-- Company logo -->
+                <div class="col-md-4 text-right">
+                    <img src="https://via.placeholder.com/50?text=Logo" alt="Company Logo" style="height: 50px;">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<!--the images are not loading properly but I have used unsplash.com as they give out free images but please let me know in your comments that if it is or is not working and how i can solve this issue-->
